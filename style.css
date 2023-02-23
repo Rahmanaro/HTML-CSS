@@ -1,0 +1,127 @@
+.logo-dan-nama {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    gap: 500px;
+}
+.Fans-Real-Madrid {
+display: flex;
+flex-direction: column;
+margin: -30px;
+
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+.linkkananrealmadrid {
+    font-size: 14px;
+    color: white;
+}
+
+nav {
+    background-color: midnightblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    height: 80px;
+}
+
+.section-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 12px 0;
+    color: black;
+}
+.section-header a {
+    color: black;
+}
+.title {
+    color: white;
+    display: flex;
+}
+.realmadridcf {
+    color: white;
+    margin-bottom: -1px;
+}
+.fans {
+    color: white;
+    margin-bottom: -20px;
+}
+
+.gambar-fans {
+    width: 1322px;
+    height: auto;
+}
+.about-me {
+    font-weight: bold;
+    font-size: 16px;
+    color: midnightblue;
+    text-align: center;
+}
+.paragraf-aboutme {
+    font-weight: normal;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+}
+.about-fans-real-madrid {
+    font-weight: bold;
+    font-size: 16px;
+    color: midnightblue;
+    text-align: center; 
+}
+.paragraf-aboutfansrealmadrid {
+    font-weight: normal;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+}
+.tipsmenendangbola {
+    font-weight: bold;
+    font-size: 16px;
+    color: midnightblue;
+    text-align: center;  
+}
+.gabungan-tips-video {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.tahapan-shoot {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.beberapashoot {
+
+    font-weight: bold;
+    font-size: 16px;
+    color: midnightblue;
+    text-align: center;  
+}
+.macamtendangan{
+    font-weight: normal;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+}
+.nendangbola {
+    font-weight: normal;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content:center ;
+}
+.link {
+    color: white;
+}
