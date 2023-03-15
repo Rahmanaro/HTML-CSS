@@ -6,11 +6,9 @@
     align-content: center;
     gap: 500px;
 }
-.Fans-Real-Madrid {
-display: flex;
-flex-direction: column;
-margin: -30px;
 
+.fans-real-madrid-cf {
+    color: white;
 }
 
 .logo {
@@ -22,7 +20,7 @@ margin: -30px;
     color: white;
 }
 
-nav {
+.khususnavbar {
     background-color: midnightblue;
     display: flex;
     flex-direction: row;
@@ -38,23 +36,45 @@ nav {
     justify-content: space-between;
     margin: 12px 0;
     color: black;
+    align-items: center;
+    
+}
+.Hellofans {
+    font-size: 32px;
+    color: white;
+    background-image: url(Assets/koreogreatwhite.jpg);
+    height: 100%;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 .section-header a {
     color: black;
+}
+
+.section-inside-header {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    gap: 20px;
+    list-style: none;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
 }
 .title {
     color: white;
     display: flex;
 }
-.realmadridcf {
-    color: white;
-    margin-bottom: -1px;
-}
-.fans {
-    color: white;
-    margin-bottom: -20px;
-}
+h1 {
+    column-span: all;
+  }
 
+.fans-real-madrid-cf {
+    flex-direction: column;
+    display: flex;
+}
 .gambar-fans {
     width: 1322px;
     height: auto;
@@ -125,3 +145,102 @@ nav {
 .link {
     color: white;
 }
+.PEMAIN-REAL-MADRID {
+    background-color: midnightblue;
+    justify-content: center;
+    display: flex;
+    flex: row;
+    color: white;
+}
+.foto-pemain {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 200px;
+    margin-bottom: 100px;
+    
+}
+.nama-pemain {
+    display: flex;
+    flex: row;
+    justify-content: center;
+    width: 100%;
+    gap: 200px;
+    margin-bottom: 10px;
+    
+}
+.foto-pemain-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 100px;
+    
+    
+}
+
+
+.foto-pemain-grid img {
+    width: 200px;
+    height: 200px;
+    
+}
+.div-foto-pemain {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.piala-real-madrid {
+    background-color: midnightblue;
+    color: white;
+    display: flex;
+    flex: row;
+    justify-content: center;
+
+}
+.fotopiala {
+    width: 100%;
+}
+
+.trofi-real-madrid {
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+}
+
+.santiagobernabeu {
+    background-color: midnightblue;
+    color: white;
+    display: flex;
+    flex: row;
+    justify-content: center;
+}
+.dalamstadion {
+    width: 100%;
+}
+
+.foto-stadion-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.foto-stadion-grid img {
+    width: 500px;
+    height: 300px;
+}
+.foto-nama-stadion {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
